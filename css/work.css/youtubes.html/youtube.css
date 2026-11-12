@@ -1,6 +1,7 @@
 .thumbnail{
     width:400px;
-    display:block;
+    display:inline-block;
+    
     
     /* height:400px;
     object-fit:contain;
@@ -16,6 +17,7 @@
 .preview{
     display:inline-block;
     margin-right: 20px;
+    margin-bottom: 30px;
     vertical-align: top;
 }
 .channel-picture{
@@ -23,13 +25,16 @@
     width:70px;
     vertical-align: top;
     margin-top:20px;
+    background-color:gray ;
    
 
 }
 .video-info{
     display:inline-block;
-    width: 300px;
-    margin-bottom:12px;
+    width: 250px;
+    margin:12px;
+    background-color: gray;
+     margin: bottom 12px;
 }
 .flow{
     width:60px;
@@ -43,7 +48,8 @@
     font-size:14px;
     font-weight:bold;
     line-height:20px;
-    text-align:justify;
+    /* text-align:justify; */
+    
 }
 .author,
 .view{
@@ -60,3 +66,8 @@ p {
     margin: bottom 4px;
 
 }
+.general{
+    display:flex;
+    
+}
+
