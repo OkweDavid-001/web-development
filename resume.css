@@ -1,0 +1,59 @@
+ 
+ 
+ body{
+    background:linear-gradient(skyblue,green)
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .image{
+    display: inline;
+    
+  
+    
+    width: 100%;
+    height: auto;
+    background-image: url(/images/shanahan.html);
+    color:red;
+    margin:left 70px;
+    font-weight: bold;
+    margin: 2px;
+    border:3px;
+    border-color:black;
+    border-style: dotted;
+    border-width:100%;
+    
+
+    
+
+    position: fixed;
+    
+}
+#name{
+    display:block;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 50px;
+    padding: 20px;
+    text-align: center;
+      display:flex;
+    flex-direction:column;
+    
+}
+#dev-boy{
+    display: block;
+    color:rgb(55, 151, 55);
+    text-align:center;
+    height: 40px;
+    background-color: aquamarine;
+    margin-top: 0px;
+    display:flex;
+    flex-direction:column;
+}
+#dev-boy:hover{
+    background-color:transparent;
+    cusor:pointer;
+}

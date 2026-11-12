@@ -1,0 +1,121 @@
+.item{
+     display:inline;
+     display:flex;
+     flex-direction:row;
+     justify-content:space-evenly;
+     width:90px;
+     height:90px;
+     background-color:rgb(219, 66, 92);
+     border:4px solid;
+     border-style: inset;
+     margin-left: 50%;
+     color:white;
+     font-size: 12px;
+     text-align:center;
+     padding:50px;
+     
+
+    }
+.background{
+     background-image:url(/images/shanahan.html);
+     background-repeat:no-repeat;
+     background-size:cover;
+}
+#item1{
+     border:5px solid;
+     border-color: gold;
+     border-style: inset;
+     /* margin-bottom: 50px; */
+     width:250px;
+     height:250px;
+     font-size:22px;
+     background-color:greenyellow;
+     margin-top:100px;
+
+
+}
+#item2{
+     border:5px solid;
+     border-color: gold;
+     border-style: inset;
+     width:250px;
+     height:250px;
+     font-size:22px;
+     background-color:greenyellow;
+
+
+
+}
+#item3{
+     border:5px solid;
+     border-color: gold;
+     border-style: inset;
+     width:250px;
+     height:250px;
+     font-size:22px;
+     background-color:greenyellow;
+     
+
+
+}
+img{
+     width:100%;
+     height: 100%;
+     object-fit: cover;
+
+}
+img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+#item1,#item2,#item3{
+     font-size: 12px;
+     font-decoration:underline;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-color:red;
+
+}
+/* #item2{
+     font-size: 12px;
+     font-decoration:underline;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-color:red;
+
+}
+#item3{
+     font-size: 12px;
+     font-decoration:underline;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-color:red;
+
+}
+ */
+ a:link{
+     color:yellow ;
+     size:14px;
+ }
+a:visited{
+     color:gray;
+}
+a:hover{
+     color:tomato;
+}
+a:active{
+     color:yellowgreen;
+}
+button:hover{
+     background-color:antiquewhite;
+
+}
+button:active {
+     background-color:white;
+}
+
+}
+
+
+
+
+     
+     
+
